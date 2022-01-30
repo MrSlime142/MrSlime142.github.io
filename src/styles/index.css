@@ -11,6 +11,10 @@ h3 {
     
 }
 
+img {
+    size: 1080px;
+}
+
 h1 {
     color: white;
     font-family: Georgia;
