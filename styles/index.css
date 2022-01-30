@@ -11,8 +11,10 @@ h3 {
     
 }
 
-img {
-    size: 1080px;
+.background {
+    max-width: 100%;
+    max-height: 100%;
+    
 }
 
 h1 {
