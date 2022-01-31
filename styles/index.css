@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "IBMPlexSans";
-    src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap");
-}
-
 body {
 	background: rgb(43, 43, 43);
 	margin: 0;
@@ -23,6 +18,7 @@ h3 {
     height: auto;
 	position: relative;
 	z-index: -1;
+    top: 6px;
 }
 
 h1  {
@@ -89,11 +85,54 @@ h2 {
     outline: none;
     border-radius: 5px;
     overflow: hidden;
-    font-family: "Quicksand", sans-serif;
+    font-family: Helvetica;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     margin-left: 93%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+.button2 {
+    display: flex;
+    height: 60px;
+    width: 140px;
+    padding: 0;
+    background: #505050;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 93%;
+    position: absolute;
+    top: 5px;
+    right: 130px;
+  }
+
+.button3 {
+    display: flex;
+    height: 60px;
+    width: 120px;
+    padding: 0;
+    background: #505050;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 93%;
+    position: absolute;
+    top: 5px;
+    right: 275px;
   }
 
 .button:hover {
@@ -119,5 +158,59 @@ h2 {
 }
 
 .button__text {
+    margin-left: 8px;
+}
+
+.button2:hover {
+    background-color: #373737;
+}
+
+.button2:active {
+    background-color: #202020;
+}
+
+.button__text2,
+.button__icon2 {
+    display: inline-flex;
+    align-items: center;
+    padding-block: 0 48px;
+    color: #fff;
+    height: 100%;
+    right: 130;
+}
+
+.button__icon2 {
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+
+.button__text2 {
+    margin-left: 8px;
+}
+
+.button3:hover {
+    background-color: #373737;
+}
+
+.button3:active {
+    background-color: #202020;
+}
+
+.button__text3,
+.button__icon3 {
+    display: inline-flex;
+    align-items: center;
+    padding-block: 0 48px;
+    color: #fff;
+    height: 100%;
+    right: 130;
+}
+
+.button__icon3 {
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+
+.button__text3 {
     margin-left: 8px;
 }
