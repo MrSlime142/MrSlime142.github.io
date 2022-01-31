@@ -10,7 +10,7 @@ body {
 }
 
 h3 {
-	color: rgb(0, 255, 32);
+	color: #fff;
 	font-family: Helvetica;
 	margin: 20.7px;
 	z-index: -1;
@@ -77,4 +77,47 @@ h2 {
     top: 30%;
     font-size: 25;
     text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000, 0.7px 0.7px 0 #000;
+}
+
+.button {
+    display: flex;
+    height: 60px;
+    width: 120px;
+    padding: 0;
+    background: #505050;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 93%;
+  }
+
+.button:hover {
+    background-color: #373737;
+}
+
+.button:active {
+    background-color: #202020;
+}
+
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding-block: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon {
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+
+.button__text {
+    margin-left: 8px;
 }
