@@ -8,209 +8,211 @@ h3 {
 	color: #fff;
 	font-family: Helvetica;
 	margin: 20.7px;
-	z-index: -1;
 }
 
 .background {
 	max-width: 100%;
 	max-height: 100%;
-    width: auto;
-    height: auto;
+	width: auto;
+	height: auto;
 	position: relative;
 	z-index: -1;
-    top: 6px;
+	top: 6px;
 }
 
-h1  {
+h1 {
 	color: white;
 	font-family: Helvetica;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    top: 10%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 10%;
 }
 
 .text1 {
-    color: white;
-    font-family: Helvetica;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    top: 18%;
-    font-size: 25;
-    text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000, 0.7px 0.7px 0 #000;
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 18%;
+	font-size: 25;
+	text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000,
+		0.7px 0.7px 0 #000;
 }
 
 .text2 {
-    color: white;
-    font-family: Helvetica;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    top: 25%;
-    font-size: 25;
-    text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000, 0.7px 0.7px 0 #000;
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 25%;
+	font-size: 25;
+	text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000,
+		0.7px 0.7px 0 #000;
 }
 
 h2 {
-    color: white;
-    font-family: Helvetica;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    top: 50%;
-    font-size: 25;
-    text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000, 0.7px 0.7px 0 #000;
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 50%;
+	font-size: 25;
+	text-shadow: -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000,
+		0.7px 0.7px 0 #000;
 }
 
 .button {
-    display: flex;
-    height: 60px;
-    width: 120px;
-    padding: 0;
-    background: #505050;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: Helvetica;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    margin-left: 93%;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-  }
+	display: flex;
+	height: 60px;
+	width: 120px;
+	padding: 0;
+	background: #505050;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-left: 93%;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
 
 .button2 {
-    display: flex;
-    height: 60px;
-    width: 140px;
-    padding: 0;
-    background: #505050;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: Helvetica;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    margin-left: 93%;
-    position: absolute;
-    top: 5px;
-    right: 130px;
-  }
+	display: flex;
+	height: 60px;
+	width: 140px;
+	padding: 0;
+	background: #505050;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-left: 93%;
+	position: absolute;
+	top: 5px;
+	right: 130px;
+}
 
 .button3 {
-    display: flex;
-    height: 60px;
-    width: 120px;
-    padding: 0;
-    background: #505050;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: Helvetica;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    margin-left: 93%;
-    position: absolute;
-    top: 5px;
-    right: 275px;
-  }
+	display: flex;
+	height: 60px;
+	width: 120px;
+	padding: 0;
+	background: #505050;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-left: 93%;
+	position: absolute;
+	top: 5px;
+	right: 275px;
+}
 
 .button:hover {
-    background-color: #373737;
+	background-color: #373737;
 }
 
 .button:active {
-    background-color: #202020;
+	background-color: #202020;
 }
 
 .button__text,
 .button__icon {
-    display: inline-flex;
-    align-items: center;
-    padding-block: 0 24px;
-    color: #fff;
-    height: 100%;
+	display: inline-flex;
+	align-items: center;
+	padding-block: 0 24px;
+	color: #fff;
+	height: 100%;
 }
 
 .button__icon {
-    font-size: 1.5em;
-    margin-left: 10%;
+	font-size: 1.5em;
+	margin-left: 10%;
 }
 
 .button__text {
-    margin-left: 8px;
+	margin-left: 8px;
 }
 
 .button2:hover {
-    background-color: #373737;
+	background-color: #373737;
 }
 
 .button2:active {
-    background-color: #202020;
+	background-color: #202020;
 }
 
 .button__text2,
 .button__icon2 {
-    display: inline-flex;
-    align-items: center;
-    padding-block: 0 48px;
-    color: #fff;
-    height: 100%;
-    right: 130;
+	display: inline-flex;
+	align-items: center;
+	padding-block: 0 48px;
+	color: #fff;
+	height: 100%;
+	right: 130;
 }
 
 .button__icon2 {
-    font-size: 1.5em;
-    margin-left: 5%;
+	font-size: 1.5em;
+	margin-left: 5%;
 }
 
 .button__text2 {
-    margin-left: 8px;
+	margin-left: 8px;
 }
 
 .button3:hover {
-    background-color: #373737;
+	background-color: #373737;
 }
 
 .button3:active {
-    background-color: #202020;
+	background-color: #202020;
 }
 
 .button__text3,
 .button__icon3 {
-    display: inline-flex;
-    align-items: center;
-    padding-block: 0 48px;
-    color: #fff;
-    height: 100%;
-    right: 130;
+	display: inline-flex;
+	align-items: center;
+	padding-block: 0 48px;
+	color: #fff;
+	height: 100%;
+	right: 130;
 }
 
 .button__icon3 {
-    font-size: 1.5em;
-    margin-left: 10%;
+	font-size: 1.5em;
+	margin-left: 10%;
 }
 
 .button__text3 {
-    margin-left: 8px;
+	margin-left: 8px;
 }
