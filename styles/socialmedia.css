@@ -38,33 +38,41 @@ h3 {
 }
 
 .discordServer {
-	height: 130px;
-	width: 130px;
+	height: 100%;
+	width: 190px;
 	z-index: 0;
-	margin: 5px;
-	right: 105px;
+	top: 5px;
+	left: 5px;
 }
 
 .redditProfile {
-	height: 130px;
-	width: 130px;
+	height: 190px;
+	width: 190px;
 	z-index: 0;
-	margin: 5px;
-	right: 48px;
+	top: 5px;
+	left: 5px;
 }
 
 .githubProfile {
-	height: 130px;
-	width: 130px;
+	height: 100%;
+	width: 190px;
 	z-index: 0;
-	margin: 5px;
-	
+	top: 5px;
+	left: 5px;
+}
+
+.twitchProfile {
+	height: 82%;
+	width: 82%;
+	z-index: 0;
+	top: 5px;
+	left: 5px;
 }
 
 button {
 	display: flex;
-	height: 250;
-	width: 200;
+	height: 200px;
+	width: 200px;
 	padding: 0;
 	background: rgb(50, 50, 50);
 	border: none;
@@ -96,6 +104,7 @@ button {
 	left: 750px;
 }
 
-.button_textDisc {
-	font-family: Helvetica;
+.twitch {
+	top: 350px;
+	left: 1050px;
 }
